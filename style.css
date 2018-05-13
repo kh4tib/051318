@@ -31,9 +31,11 @@ body {
   .main .form__details {
     color: #777;
     height: auto;
-    overflow: hidden; }
+    overflow: hidden;
+    transition: .3s ease-in-out; }
   .main .form__button {
     font-family: 'Space Mono', monospace;
+    font-size: .825rem;
     text-align: center;
     padding: .5rem 2rem;
     margin-top: 2rem;
@@ -43,5 +45,9 @@ body {
     transition: .3s ease-in-out; }
     .main .form__button:hover {
       background: #5846c7; }
+
+.js-collapse {
+  height: 21rem;
+  transition: .3s ease-in-out; }
 
 /*# sourceMappingURL=style.css.map */

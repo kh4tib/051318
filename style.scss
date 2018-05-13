@@ -46,10 +46,13 @@ body {
             color: #777;
             height: auto;
             overflow: hidden;
+            transition: .3s ease-in-out;
+
         }
 
         &__button {
             font-family: 'Space Mono', monospace;
+            font-size: .825rem;
             text-align: center;
             padding: .5rem 2rem;
             margin-top: 2rem;
@@ -63,4 +66,9 @@ body {
             }
         }
     }
+}
+
+.js-collapse {
+    height: 21rem;
+    transition: .3s ease-in-out;
 }
